@@ -1,0 +1,69 @@
+/** tableau */
+/** table**/
+.effectif table {
+    width: 90%;
+   margin-left: 70px;
+}
+.effectif table td, .effectif table th{
+    
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 15%;
+}
+.effectif div input{
+    align-items: center;
+    text-align: center;
+    margin: 0 40% ;
+}
+.case input{
+   padding: 5px 70px;
+   text-align: center;
+}
+
+.valider:hover{
+    cursor: pointer;
+    background-color:darkred;
+    color: snow;
+}
+.valider{
+    padding: 5px 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px black;
+    background-color: grey;
+    margin: 0 505px;
+    
+}
+.case1{
+    background:rgb(198, 197, 197);
+}
+
+.back{
+    text-align: center ;
+    font-size: 28px;
+    margin: 100px 250px;
+    padding: 0px 40px;
+  text-decoration: underline;
+
+}
+#rendement{
+  
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+padding-left: 200px;
+margin-left: 200px;
+margin-bottom: 20px;
+    
+}
+
+/* effectif*/
+.res {
+    background-color: aqua;
+}
+
+
+.boite{
+    border: 1px solid black;
+}

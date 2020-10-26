@@ -1,0 +1,64 @@
+
+header{
+    display:flex;
+    border: 2px solid black;
+    box-shadow: 0 0 10px snow;
+  
+    
+}
+titre{
+    text-align: center;
+    padding-left: 30px;
+    color: seashell;
+}
+menu {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+   
+}
+menu li {
+    list-style: none;
+ text-align: center;
+ position: relative;
+ border-bottom: cadetblue;
+ 
+}
+menu ul li a{
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #000;
+    width: 150px;
+    height: 20px;
+    display: block;
+    text-shadow:1px 1px 1px snow;
+}
+menu ul ul {
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+menu ul li:hover ul {
+    visibility: visible;
+}
+menu li:hover {
+    background-color: burlywood;
+}
+menu ul li ul a:hover{
+    color: ghostwhite;
+    background-color: saddlebrown;
+}
+
+body{
+    background-image: url(../1.png);
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+  
+}
+#login{
+    margin-top: 200px;
+    padding-top:300px;
+    border: 1px solid black;
+}

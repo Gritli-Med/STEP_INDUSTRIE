@@ -1,0 +1,140 @@
+
+/** table **/
+
+
+.effectif table td, .effectif table th{
+    
+  
+    text-align: center;
+    
+}
+.effectif div input{
+    align-items: center;
+    text-align: center;
+    margin: 0 40% ;
+}
+.case input{
+  
+   text-align: center;
+}
+
+.valider:hover{
+    cursor: pointer;
+    background-color:darkred;
+    color: snow;
+}
+.retour{
+    display: block;
+    margin-top: 250px;
+  
+    background-color: rgb(248, 247, 247);
+    width: 300px;
+   
+    
+}
+.retour a {
+    font-size: 32px;
+    margin-top:100px ;
+    text-align: center;
+    margin-left: 120px;
+}
+
+table {
+    position: relative;
+    z-index: 2;
+    left: 5%;
+    top: 20px;
+    margin-bottom: 30px;
+    transform: translate(-2%,-9%);
+    width:1500px;
+
+    text-align: center;
+ 
+}
+tr:nth-child(odd) {
+    background-color: rgb(211, 207, 207);
+}
+
+tr:first-child{
+    background-color: #426d7a;
+    font-size: 14px;
+    color: snow;
+    font-family: 'Courier New', Courier, monospace;
+}
+table th {
+    width: 150px;
+    height: 30px;
+ } 
+ .titre {
+ font-size: larger;
+ color: #212526; ;
+     margin-top: 110px;
+     margin-bottom: 50px;
+     text-align: center;
+     text-decoration: underline;
+ }
+.page{
+    margin-bottom: 30px;
+    margin-left: 150px;
+    background-color: #104d5e;
+    color: #abc08d;
+    padding: 5px 15px;
+    border-radius: 10px;
+text-decoration: none;
+}
+.page:hover{
+    background-color: #c8dee5;
+    color:#426d7a ;
+}
+
+.avant
+{margin-left: 100px;
+    display: flex;
+text-align: center;
+    font-size: 28px;
+    color: #104d5e;
+ 
+}
+
+.title{
+    margin-left: 50px;
+    border: 1px solid #104d5e;
+    padding: 0px 100px;
+}
+
+.title  h3 {
+    display: inline;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn-rech {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+}
+#btn-rech:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+  
+}
+.title input {
+    width: 200px;
+    text-align: center;
+    height: 30px;
+}
+.ret{
+    margin-bottom: 30px;
+    margin-left: 800px;
+    background-color: #5e1010;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+text-decoration: none;
+}
+
+.ret:hover{
+    background-color: white;
+    color:#b5492d ;
+    border: 1px solid red;
+}

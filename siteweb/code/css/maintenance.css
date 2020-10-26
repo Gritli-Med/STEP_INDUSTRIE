@@ -1,0 +1,240 @@
+intermidiare{
+    display: block;
+    display: flex;
+    padding-left:10px;
+}
+.boite{
+    width: 300px;
+    border: 1px solid black;
+    height: 350px;
+    margin-left: 2%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px #000;
+    background: linear-gradient(rgb(236, 236, 236),#897e7e,grey,snow);
+}
+.boite ul {
+text-align: center;
+list-style: none;
+ 
+
+}
+.boite ul li{
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid snow;
+    }
+
+.boite ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 28px;
+    color: snow;
+}
+.active-2{
+    box-shadow: 0 0 2px #ffffff;
+    width: 250px;
+    height: 40px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color:green; 
+ }
+ .active-2:hover{
+     background-color: snow;
+ }
+ .boite ul li a:hover{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 35px;
+    color:green;
+    transition:0.5s; 
+}
+
+.box{
+    width: 1350px;
+    border: 1px solid black;
+    background: linear-gradient(rgb(236, 236, 236),snow,#d1c9c9,snow);
+    height:1800px;
+    margin-left: 2%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px #000;
+    
+    margin-left:20px ;
+}
+.sortie{
+    margin-top: 250px;
+    margin-left: 80px;
+    font-size: 20px;
+    background: rgb(197, 36, 36);
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: snow;
+}
+.sortie a{
+    text-decoration: none;
+    color:snow ;
+}
+.sortie:hover{
+    background-color: snow;
+    color: rgb(197, 36, 36);
+    cursor: pointer;
+}
+.sortie a:hover{
+    
+    color:rgb(197, 36, 36);
+    cursor: pointer;
+}
+/* le menu de maintenance */
+
+
+.box div {
+    background-image: linear-gradient(to right,rgb(104, 108, 104), #8e908e,rgb(125, 130, 125),rgb(104, 108, 104));
+height: 60px;
+}
+
+.box div ul{
+    margin-block-start: 0px;
+    display: block;
+    display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+    list-style: none;
+    padding: 15px 00px;
+    margin-left: 00px ;
+}
+.box div ul a{
+    padding: 0px 40px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+   
+    margin: 0px 0px;
+    
+  
+ }   
+
+ .active-3{
+    background-color: rgb(202, 202, 202);
+  height: 25px;
+ 
+ }
+ .box div ul a:hover{
+    font-size: 19px;
+  background-color: snow;
+  color: black;
+    
+}
+#maint {
+    margin-right: 200px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+
+/* formulaire*/
+.form-titre{
+  margin: 50px 10px 0px 200px;
+ 
+   background-color:rgba(5, 5, 5, 0.5) ;
+   width: 900px;
+   color: #ffffff;
+   padding: 10px 0px 10px 0px;
+   border-radius:15px 15px 0px 0px ;
+   text-align: center;
+}
+
+.form{
+    font-family: sans-serif;  
+    
+}
+.centre{
+    background-color:rgba(5, 5, 5, 0.33) ;
+    width: 900px;
+    color: #ffffff;
+    padding:10px 0px 10px 0px; ;
+    border-radius:0px 0px 20px 20px ;
+    margin: 0px 10px 0px 200px;   
+}
+#name{
+    width: 100%;
+    height: 100px;
+    border-radius:15px 15px 0px 0px ;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 300px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius:15px 15px 0px 0px ;
+}
+.first-name{
+    position: relative;
+    left: 300px;
+    top: -50px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding-top:-10px ;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius:5px ;
+}
+
+.in{
+    position: relative;
+    width: 450px;
+    top: -60px;
+    line-height: 30px;
+    left: 350px;
+    border-radius:5px ;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+.des{
+    position: relative;
+    width: 450px;
+    top: -60px;
+    line-height: 100px;
+    left: 350px;
+    border-radius:5px ;
+
+}
+.op{
+    position: relative;
+    width: 450px;
+    top: -60px;
+   height: 35px;
+    left: 350px;
+    text-align: center;
+}
+
+.radio{
+    margin-left: 200px;
+    font-size: 20px;
+}
+.ques{
+    margin-left: 420px;
+    font-size: 20px;
+}
+.form-buton {
+   margin: 20px 0px 0px 400px;
+   padding: 10px 50px 10px 50px;
+   font-family: cursive;
+   font-size: 18px;
+}
+
+.form-buton:hover{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;
+color: green;
+cursor: pointer;
+}
+.ques a:hover{
+    color:darkred
+    
+}

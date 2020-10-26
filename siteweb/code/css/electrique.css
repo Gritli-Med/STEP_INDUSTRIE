@@ -1,0 +1,43 @@
+
+.box par2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+  width: 250px;
+  height: 490px;
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: rgba(223, 236, 226, 0.542);
+    border-radius: 0px  ;
+}
+.box par2 img {
+
+   width: 200px;
+   height: 200px;
+}
+.box par {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+  width: 550px;
+  height: 200px;
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: rgba(231, 231, 231, 0.542);
+    border-radius: 0px  ;
+}
+.box par3 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+  width: 550px;
+  height: 250px;
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: rgba(231, 231, 231, 0.542);
+    border-radius: 0px  ;
+}
+

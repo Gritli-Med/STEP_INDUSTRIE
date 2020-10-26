@@ -1,0 +1,50 @@
+/** tableau */
+/** table**/
+.rendement table {
+    width: 90%;
+   
+}
+.rendement table td, .effectif table th{
+    
+    
+    border: 2px solid black;
+    text-align: center;
+   
+}
+.rendement div-3 input{
+    align-items: center;
+    text-align: center;
+    
+}
+.case2 input{
+  
+   text-align: center;
+}
+
+.agree:hover{
+    cursor: pointer;
+    background-color:darkred;
+    color: snow;
+}
+.agree{
+    margin: 0% 40%;
+    padding: 5px 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px black;
+    background-color: rgb(202, 202, 202);
+    
+}
+.case11{
+    background:rgb(198, 197, 197);
+     
+}
+.back{
+    font-size: 18px;
+  font-family: cursive;
+  text-decoration: underline;
+
+ 
+
+}
+
